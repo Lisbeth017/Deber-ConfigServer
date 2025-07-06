@@ -1,0 +1,7 @@
+#Semana3-JPA.property= Semana3-JPA profile Dev
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
