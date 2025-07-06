@@ -1,12 +1,10 @@
-# Configuración de perfil producción para Semana3-JPA
-
+# Configuracion de perfil produccion para Semana3-JPA
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://mysql-prod:3306/estudiantesdb_prod
     username: root
     password:
-
   jpa:
     hibernate:
       ddl-auto: update
