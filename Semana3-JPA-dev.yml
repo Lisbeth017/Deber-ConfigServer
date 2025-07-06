@@ -1,4 +1,4 @@
-#Semana3-JPA.property= Semana3-JPA profile Dev
+# Perfil desarrollo
 spring:
   jpa:
     hibernate:
