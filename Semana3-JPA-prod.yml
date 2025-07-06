@@ -1,7 +1,14 @@
 # Perfil producción con base de datos en Docker
+
 spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql-prod:3306/estudiantesdb_prod
+    username: root
+    password:
+
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
+    show-sql: false
     database-platform: org.hibernate.dialect.MySQLDialect
