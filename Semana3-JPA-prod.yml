@@ -1,4 +1,4 @@
-# Perfil producción con base de datos en Docker
+# Perfil producción limpio para Semana3-JPA
 
 spring:
   datasource:
@@ -12,4 +12,5 @@ spring:
       ddl-auto: update
     show-sql: false
     database-platform: org.hibernate.dialect.MySQLDialect
+
 
